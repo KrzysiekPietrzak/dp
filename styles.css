@@ -1,0 +1,117 @@
+*{
+        margin: 0;
+        padding: 0;
+        
+}
+span:before{
+content: " ";
+}
+span:after{
+content: " ";
+}
+#bg {
+height: 100vh;
+        background-image: url("bg3.jpg");
+        background-size: contain;
+}
+.vid{
+        position:absolute;
+        top: 5rem;
+        left: 20%;
+
+}
+h1{        
+        font-size: 3em;
+        padding-top: 10px;
+}
+#img1{
+        width: 10vw;
+        height: auto;
+        animation: spin infinite 10s linear;
+}
+#img2{
+        width: 10vw;
+                height: auto;
+        animation: spin infinite 8s linear;
+}
+#img3{
+        width: 10vw;
+                height: auto;
+        animation: spin infinite 12s linear;
+}
+
+
+.span1{
+                animation: disco infinite 2s linear;
+}
+.span2{
+                animation: disco infinite 4s linear;
+}
+.span3{
+                animation: disco infinite 3.2s linear;
+}
+.span4{
+                animation: disco infinite 2.4s linear;
+}
+.span5{
+                animation: disco infinite 3.1s linear;
+}
+
+
+
+@keyframes disco{
+        0%{color:red;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;}
+        10%{color:green;
+       }
+        20%{color:brown;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        30%{color:violet;
+        }
+        40%{color:yellow;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        }
+        50%{color:teal;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       }
+        60%{color:silver;
+     }
+        70%{color:orange;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;}
+        80%{color:maroon;
+       }
+        90%{color:black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        100%{color:blue;
+       }
+}
+
+@keyframes spin {
+     0%{transform: rotate(0deg);}
+     5%{transform: rotate(10deg);}
+     10%{transform: rotate(-15deg);}
+     15%{transform: rotate(20deg);}
+     20%{transform: rotate(10deg);}
+     25%{transform: rotate(-40deg);}
+     30%{transform: rotate(15deg);}
+     35%{transform: rotate(90deg);}
+     40%{transform: rotate(-10deg);}
+     45%{transform: rotate(45deg);}
+     50%{transform: rotate(-20deg);}
+     55%{transform: rotate(0deg);}
+     60%{transform: rotate(-60deg);}
+     65%{transform: rotate(10deg);}
+     70%{transform: rotate(-20deg);}
+     75%{transform: rotate(60deg);}
+     80%{transform: rotate(-20deg);}
+     85%{transform: rotate(15deg);}
+     90%{transform: rotate(0deg);}
+     100%{transform: rotate(360deg);}
+   
+
+    }
