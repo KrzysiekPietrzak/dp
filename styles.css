@@ -3,6 +3,12 @@
         padding: 0;
         
 }
+
+video{
+float: right;
+margin-right: 5vw;
+}
+
 span:before{
 content: " ";
 }
@@ -25,19 +31,82 @@ h1{
         padding-top: 10px;
 }
 #img1{
-        width: 10vw;
+        width: 6vw;
         height: auto;
-        animation: spin infinite 10s linear;
+        animation: spin infinite 10.1s linear;
 }
 #img2{
-        width: 10vw;
+        width: 6vw;
                 height: auto;
-        animation: spin infinite 8s linear;
+        animation: spin infinite 8.7s linear;
 }
 #img3{
-        width: 10vw;
+        width: 6vw;
                 height: auto;
-        animation: spin infinite 12s linear;
+        animation: spin infinite 12.2s linear;
+}
+#img4{
+        width: 6vw;
+                height: auto;
+        animation: spin infinite 9.1s linear;
+}
+
+#img5 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 11s linear;
+}
+
+#img6 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 8.5s linear;
+}
+
+#img7 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 9.1s linear;
+}
+
+#img8 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 11.8s linear;
+}
+#img9 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 14.3s linear;
+}
+
+#img10 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 9.8s linear;
+}
+
+#img11 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 11.3s linear;
+}
+#img12 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 8.4s linear;
+}
+
+#img13 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 10.8s linear;
+}
+
+#img14 {
+        width: 6vw;
+        height: auto;
+        animation: spin infinite 9.2s linear;
 }
 
 
